@@ -10,6 +10,7 @@ public class spicejet {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Change commit to Github
 		System.setProperty("webdriver.chrome.driver", "/Users/patrickvaras/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);

@@ -25,10 +25,13 @@ public class spicejet {
 		System.out.println("BEGIN TESTING CHECKBOXES");
 		driver.findElement(By.xpath("//*[@id='ctl00_mainContent_rbtnl_Trip_1']")).click();
 		System.out.println("Round Trip");
+		
 		driver.findElement(By.xpath("//*[@id='ctl00_mainContent_chk_Unmr']")).click();
 		System.out.println("Unaccompanied Minor");
+		
 		driver.findElement(By.xpath("//*[@id='ctl00_mainContent_chk_friendsandfamily']")).click();
 		System.out.println("Family and Friends");
+		
 		driver.findElement(By.xpath("//*[@id='StudentDiv']/label")).click();
 		System.out.println("Student");
 		driver.findElement(By.xpath("//*[@id='ctl00_mainContent_IndArm']/label")).click();

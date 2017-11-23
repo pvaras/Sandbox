@@ -9,7 +9,7 @@ public class firefoxinvoke {
 		System.setProperty("webdriver.gecko.driver", "/Users/patrickvaras/Downloads/geckodriver");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://www.cnn.com");
-		System.out.println("Firefox invoked - Geko Driver");
+		System.out.println("Firefox invoked - Geko Driver invoke");
 		
 
 	}

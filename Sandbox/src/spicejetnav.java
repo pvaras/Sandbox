@@ -22,6 +22,10 @@
 				System.out.println("          ");
 				
 				System.out.println("Experimenting with GIT");
+				System.out.println("          ");
+				
+				System.out.println("Push from Dev to Stage");
+				System.out.println("          ");
 				
 				//Wait for first dropdown to become available before clicking
 				WebDriverWait wait = new WebDriverWait(driver, 40);

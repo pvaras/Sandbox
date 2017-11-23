@@ -15,6 +15,8 @@ public class basecode {
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		System.out.println("Test site invoked");
+		
+		//GIT CHANGE
 	
 		//Search query
 		driver.findElement(By.cssSelector("#search_query_top")).sendKeys("Dress");

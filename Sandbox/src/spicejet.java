@@ -19,6 +19,9 @@ public class spicejet {
 		System.out.println("Test site invoked");
 		System.out.println("         ");
 		
+		System.out.println("Adding a GIT test message");
+		System.out.println("         ");
+		
 		//Checkboxes
 		WebDriverWait wait = new WebDriverWait(driver, 40);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='ctl00_mainContent_rbtnl_Trip_1']")));

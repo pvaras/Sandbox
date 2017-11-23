@@ -21,7 +21,7 @@
 				System.out.println("Test site invoked");
 				System.out.println("          ");
 				
-				System.out.println("Experimenting with GIT");
+				System.out.println("Experimenting with GIT - Pull from remote");
 				System.out.println("          ");
 				
 				System.out.println("Push from Dev to Stage");

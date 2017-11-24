@@ -4,7 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class basecode {
 
@@ -14,6 +16,7 @@ public class basecode {
 		System.setProperty("webdriver.chrome.driver", "/Users/patrickvaras/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
+		driver.manage().window().maximize();
 		System.out.println("Test site invoked");
 		
 		//GIT CHANGE
@@ -38,14 +41,30 @@ public class basecode {
 		driver.findElement(By.cssSelector(".is_required")).sendKeys("pvaras@yahoo.com");
 		driver.findElement(By.cssSelector("#SubmitCreate")).click();
 		System.out.println("Button clicked");
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		//Enter registration info
 		//driver.findElements(By.cssSelector("#uniform-id_gender1"));
 	
 		//DOB Dropdowns
-		Select s=new Select(driver.findElement(By.cssSelector("div#uniform-days")));
+		WebDriverWait wait1 = new WebDriverWait(driver, 40);
+		wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@value='26']")));
+		
+		
+		driver.findElement(By.xpath("//*[@value='26']")).click();
+		System.out.println("26");
+		
+		WebDriverWait wait11 = new WebDriverWait(driver, 40);
+		wait11.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@value='10']")));
+		
+		driver.findElement(By.xpath("//*[@value='10']")).click();
+		System.out.println("October");
+		driver.findElement(By.xpath("//*[@value='1966']")).click();
+		System.out.println("1966");
+		
+		
+		//Select s=new Select(driver.findElement(By.xpath("//*[@id='days']")).
 		//s.selectByValue("10");
-		System.out.println("Select Month 10 (October)");
+		//System.out.println("Select Month 10"));
 		
 		
 		

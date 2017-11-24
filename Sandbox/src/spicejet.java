@@ -16,6 +16,7 @@ public class spicejet {
 		System.setProperty("webdriver.chrome.driver", "/Users/patrickvaras/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.spicejet.com/");
+		driver.manage().window().maximize();
 		System.out.println("Test site invoked");
 		System.out.println("         ");
 		

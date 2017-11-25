@@ -21,12 +21,6 @@
 				System.out.println("Test site invoked");
 				System.out.println("          ");
 				
-				System.out.println("Experimenting with GIT - Is GIT fixed now?");
-				System.out.println("          ");
-				
-				System.out.println("Push from Dev to Stage");
-				System.out.println("          ");
-				
 				//Wait for first dropdown to become available before clicking
 				WebDriverWait wait = new WebDriverWait(driver, 40);
 				wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input#ctl00_mainContent_ddl_originStation1_CTXT")));		
@@ -36,6 +30,8 @@
 				System.out.println("Departure City Dropdown selected");
 				driver.findElement(By.xpath("//*[@id=\'dropdownGroup1\']/div/ul[2]/li[3]/a")).click();
 				System.out.println("GOA Selected");
+				System.out.println("          ");
+				
 				
 				//Arrival City Dropdown;
 				driver.findElement(By.xpath("(//*[@id='dropdownGroup1'])[2]/div/ul[2]/li[4]/a")).click();

@@ -23,7 +23,7 @@ public class spicejet {
 		System.out.println("Adding a GIT test message");
 		System.out.println("         ");
 		
-		System.out.println("Last GIT commit test");
+		System.out.println("Last GIT commit testing");
 		System.out.println("         ");
 		
 		//Checkboxes

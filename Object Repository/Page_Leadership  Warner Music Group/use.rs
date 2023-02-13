@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>use</name>
+   <tag></tag>
+   <elementGuidId>9180dfe0-0a8e-4404-856d-354901b153d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>use</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>use</value>
+      <webElementGuid>e84c283b-e52b-46d4-ba30-f387932ed61f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xlink:href</name>
+      <type>Main</type>
+      <value>https://www.wmg.com/wp-content/themes/wmg/img/svg/defs.svg#WMG_Logo</value>
+      <webElementGuid>47f76a97-2bdc-4f72-8296-7e73f6d53328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;masthead&quot;)/div[@class=&quot;site-header__branding&quot;]/p[@class=&quot;site-header__branding__title&quot;]/a[@class=&quot;site-header__branding__title-link&quot;]/svg[@class=&quot;icon icon-WMG_Logo&quot;]/use[1]</value>
+      <webElementGuid>ca912223-2580-4224-b5a6-68c5a4c70430</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

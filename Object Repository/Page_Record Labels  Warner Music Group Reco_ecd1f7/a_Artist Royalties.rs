@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Artist Royalties</name>
+   <tag></tag>
+   <elementGuidId>0075ae52-131d-4a07-8864-244e2c7fd461</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-item-2256']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-item-2256 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>61ee6232-2480-4c10-981c-29c8dbd24b60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.wmg.com/artist-royalties</value>
+      <webElementGuid>bc546ff0-d9d8-486a-8e3b-3edbdbdc1485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Artist Royalties</value>
+      <webElementGuid>dd7a380e-e5c7-43c7-95ba-c7b810d4c171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-item-2256&quot;)/a[1]</value>
+      <webElementGuid>dd188979-8306-4cf4-930a-a6cd21840dbe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-item-2256']/a</value>
+      <webElementGuid>fbf793cd-0ff9-450f-8b14-2269d6feefac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Artist Royalties')]</value>
+      <webElementGuid>93cda58f-7655-415b-835a-6860071cf4e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Investor Relations'])[1]/following::a[1]</value>
+      <webElementGuid>8c290e7f-94cc-4828-ba2e-1dedb77f143c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Social Justice Fund'])[1]/following::a[2]</value>
+      <webElementGuid>9ffa489c-7716-4bd2-8c7e-fcbb40f6ff4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Human Trafficking Statement'])[1]/preceding::a[1]</value>
+      <webElementGuid>8ef3f7ab-ef49-41b4-997f-9c147c3516cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UK Group Tax Strategy'])[1]/preceding::a[2]</value>
+      <webElementGuid>e5bde2cd-8f6c-4857-9ee9-9c330cb0e1ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Artist Royalties']/parent::*</value>
+      <webElementGuid>2c372c5a-a972-4538-9e9d-61a0f07b3a95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.wmg.com/artist-royalties')]</value>
+      <webElementGuid>0dd6ff94-a12c-4f41-8b2c-4d28f9bc245a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/ul[2]/li[5]/a</value>
+      <webElementGuid>7f6a1815-1244-447a-8e4f-63283ddb04c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.wmg.com/artist-royalties' and (text() = 'Artist Royalties' or . = 'Artist Royalties')]</value>
+      <webElementGuid>07ed76ef-7b68-4782-b0de-596a1b104b5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
